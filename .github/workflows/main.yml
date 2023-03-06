@@ -33,6 +33,3 @@ jobs:
           sudo mv * /usr/share/nginx/html/
           sudo systemctl reload nginx
           
-      # Build Complete Status
-      - name: Status of Build 
-        run: echo Build Completed Successfully !!
