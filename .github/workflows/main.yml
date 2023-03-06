@@ -29,7 +29,6 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Deploy the Push
         run: |  
-          sudo rm -rf /usr/share/nginx/html/!(404.html|50x.html|changelog.txt)
           sudo mv * /usr/share/nginx/html/
           sudo systemctl reload nginx
           
