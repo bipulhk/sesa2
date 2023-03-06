@@ -28,7 +28,8 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Deploy the Push
-        run: |  
+        run: |    
+          sudo rm -rf /usr/share/nginx/html/*
           sudo mv * /usr/share/nginx/html/
           sudo systemctl reload nginx
           
