@@ -1,20 +1,4 @@
-/**
-* Template Name: Yummy - v1.3.0
-* Template URL: https://bootstrapmade.com/yummy-bootstrap-restaurant-website-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# Set main reusable colors and fonts using CSS variables
-# Learn more about CSS variables at https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties
---------------------------------------------------------------*/
-/* Fonts */
-/* :root {
-  --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --font-primary: "Amatic SC", sans-serif;
-  --font-secondary: "Inter", sans-serif;
-} */
 
 :root {
   --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -25,7 +9,7 @@
 /* Colors */
 :root {
   --color-default: #212529;
-  --color-primary: #ce1212;
+  --color-primary: #6c3;
   --color-secondary: #37373f;
 }
 
@@ -70,7 +54,8 @@ section {
 }
 
 .section-bg {
-  background-color: #eee;
+  /* background-color: #eee; */
+  background-color: rgba(240, 218, 175, 0.8)
 }
 
 .section-header {
@@ -596,6 +581,13 @@ section {
   min-height: 500px;
 }
 
+.about .about-img img {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  }
+  
 .about h3 {
   font-weight: 700;
   font-size: 36px;
@@ -1928,4 +1920,11 @@ section {
 
 .footer .credits a {
   color: #fff;
+}
+
+/* extra */
+.btn-outline-danger{
+  background-color: #6c3;
+  border-color: #6c3;
+  --bs-btn-color: #000000;
 }
